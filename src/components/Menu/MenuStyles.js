@@ -9,6 +9,7 @@ align-items:center;
 height:10vh;
 width:100%;
 
+
 div{
     margin:6%;
     font-family: 'Montserrat', sans-serif;
@@ -17,6 +18,11 @@ div{
     border-radius:4rem;
     animation: showmenu 5s normal;
     transition: opacity 2s;
+
+    a {
+        
+        text-decoration:none;
+    }
 
     :hover {
         text-shadow: 1px 1px #ce1e9c;
