@@ -6,7 +6,7 @@ import GlobalStyles from "./styles/global.js";
 
 
 function App() {
-  
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(()=>{
@@ -17,9 +17,9 @@ function App() {
 
   return (
     <>
-      <GlobalStyles />
       {isLoading ? <Loader /> : (
         <>
+          <GlobalStyles />
             <Container>
               <Header />
             </Container>
