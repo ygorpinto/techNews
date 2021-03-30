@@ -4,7 +4,6 @@ import { Header } from "./components/Header/Header.jsx";
 import Loader from "./components/Loader/Loader.jsx";
 import GlobalStyles from "./styles/global.js";
 import {BrowserRouter as Router} from "react-router-dom";
-import mainRoutes from "./routes.js";
 import MainRoutes from "./routes.js";
 
 

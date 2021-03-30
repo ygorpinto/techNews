@@ -1,5 +1,5 @@
 import MenuStyles from "./MenuStyles";
-import {Link, Router} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const Menu = () => {
     return (
