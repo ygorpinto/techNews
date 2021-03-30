@@ -8,7 +8,7 @@ flex-direction:column;
 align-items:center;
 font-family: 'Montserrat', sans-serif;
 text-shadow:1px 1px #ce1e9c;
-animation:showEffect 3.8s normal;
+
 
 img {
     position:absolute;
@@ -16,26 +16,30 @@ img {
     left:18%;
     height:25%;
     border-radius:50%;
-    opacity:0.9;
-    
+    opacity:0.9;  
 
     :hover {
         opacity:1;
         animation:expandEffect 0.2s normal infinite;
     }
 }
-
 span {
     display:flex;
     flex-direction:column;
     align-items:center;
     margin:1rem 0 0 0;
 
+    h1 {
+        margin:5.5rem 0 0 4rem;
+        font-size:1.3rem;
+        font-weight:300;
+        text-align:right;
+    }
+
     p{
-        margin:6rem 0 0 0;
+        margin:5.5rem 0 0 0;
     }
 }
-
 strong {
     font-size:1.6rem;
     font-weight:600;
@@ -46,10 +50,9 @@ p {
     font-size:1.2rem;
     font-weight:300;
 }
-
 @keyframes showEffect {
         from {
-            opacity:0;
+            opacity:1;
         }
 
         to {
