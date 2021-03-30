@@ -9,6 +9,8 @@ display:flex;
 justify-content:center;
 align-items:center;
 
+opacity:0.6;
+
 `
 
 export default LoaderStyles;
