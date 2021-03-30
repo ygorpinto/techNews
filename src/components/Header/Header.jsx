@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         <HeaderStyles>
             <Menu/>
-            <h1>FinTech News</h1>
+            <h1>Tech News</h1>
         </HeaderStyles>
     )
 }

@@ -1,7 +1,9 @@
+import { SobreStyle } from "./SobreStyle"
+
 export const Sobre = () => {
     return (
-        <div>
-            Sobre
-        </div>
+        <SobreStyle>
+           <h1>Sobre</h1>
+        </SobreStyle>
     )
 }

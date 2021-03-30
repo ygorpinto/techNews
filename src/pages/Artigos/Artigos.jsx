@@ -1,7 +1,9 @@
+import { ArtigosStyle } from "./ArtigosStyle"
+
 export const Artigos = () => {
     return (
-        <div>
-            Artigos
-        </div>
+        <ArtigosStyle>
+           <h1>Artigos</h1> 
+        </ArtigosStyle>  
     )
 }

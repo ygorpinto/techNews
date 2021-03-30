@@ -1,7 +1,9 @@
+import { HomeStyle } from "./HomeStyle"
+
 export const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <HomeStyle>
+           <h1>Home</h1> 
+        </HomeStyle>
     )
 }

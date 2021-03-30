@@ -39,7 +39,7 @@ h1 {
             }
             
             to {
-                width:26rem;
+                width:20rem;
             }
         }
 
