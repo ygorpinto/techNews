@@ -8,13 +8,13 @@ flex-direction:column;
 align-items:center;
 font-family: 'Montserrat', sans-serif;
 text-shadow:1px 1px #ce1e9c;
-
+animation:showEffect 3.8s normal;
 
 img {
     position:absolute;
-    top:25%;
-    left:18%;
-    height:25%;
+    top:27%;
+    left:19%;
+    height:20%;
     border-radius:50%;
     opacity:0.9;  
 
@@ -27,7 +27,7 @@ span {
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin:1rem 0 0 0;
+    margin:0.5rem 0 0 0;
 
     h1 {
         margin:5.5rem 0 0 4rem;
@@ -47,7 +47,7 @@ strong {
 
 p {
     margin:2rem 0 0 0;
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight:300;
 }
 @keyframes showEffect {
@@ -61,11 +61,11 @@ p {
     }
 @keyframes expandEffect {
         from {
-            height:28%;
+            height:24%;
         }
 
         to {
-            height:28%;
+            height:24%;
         }
     }
 `
