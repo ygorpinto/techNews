@@ -7,7 +7,6 @@ display:flex;
 flex-direction:column;
 align-items:center;
 font-family: 'Montserrat', sans-serif;
-text-shadow:1px 1px #ce1e9c;
 animation:showEffect 3.8s normal;
 
 img {
@@ -43,6 +42,7 @@ span {
 strong {
     font-size:1.6rem;
     font-weight:600;
+    text-shadow:1px 1px #ce1e9c;
 }
 
 p {
